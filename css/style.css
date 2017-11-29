@@ -4,15 +4,15 @@
 .header-left{
     width: 600px;
     height: 50px;
-    background-color: tomato;
+    background-color: white;
     padding: 2px;
     text-align: center;
     float: left;
 }
 .header-right{
-    width: 656px;
+    width: 639px;
     height: 50px;
-    background-color: tomato;
+    background-color: white;
     padding: 2px;
     float: right;
 }
@@ -42,11 +42,13 @@ li a {
     border-radius: 50px;
     padding: 2px;
     width: 80px;
+    top: -4px;
+    position: relative;
 }
 
 .main-content{
-    width: 1264px;
-    height: 420px;
+    width: 1246px;
+    height: 470px;
     background-color: #4CA368;
     text-align: center;
 }
@@ -75,22 +77,174 @@ li a {
     line-height: 0px;
 }
 .email-adress{
-    color: white;
     border-radius: 50px;
-    padding: 5px;
+    padding: 6.5px;
     width: 180px;
     border-bottom-left-radius: 200px;
     border-top-left-radius: 200px;
     font-size: 10px;
-    text-align: inherit;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-color: #37804E;
+    border-style: solid;
 }
 .use-it-free{
     text-align: center;
     border-radius: 50px;
-    padding: 3px;
+    padding: 6px;
     width: 80px;
     border-bottom-right-radius: 200px;
     border-top-right-radius: 200px;
-    font-size: 13px;
-
+    font-size: 10px;
+    margin-left: -6px;
+    box-sizing: border-box;
+    background-color: #37804E;
+    border-color: #37804E;
+    border-style: solid;
 }
+
+.footer{
+    height: 450px;
+    width: 1246px;
+}
+
+.text-3{
+    text-align: center;
+    margin-top: 0px;
+    height: 40px;
+    line-height: 150px;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.container{
+    margin: auto;
+    background-color: white;
+    width: 450px;
+    height: 200px;
+    -webkit-box-shadow: 0px 0px 5px 2px #E8E8E8;
+    -moz-box-shadow: 0px 0px 5px 2px #E8E8E8);
+    box-shadow: 0px 0px 5px 2px #E8E8E8);
+}
+
+.header2{
+    height: 183px;
+    width: 40%;
+    float: left;
+}
+
+.sign-in{
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.header3{
+    height: 183px;
+    width: 60%;
+    float: right;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: -10px;
+    position: static;
+}
+
+.header4{
+    color: #B4DCA8;
+}
+.sign-up{
+    margin-left: -25px;
+    margin-top: -7px;
+}
+
+.footer-back{
+    width: 450px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+}
+.community-edition{
+    width: 33.3%;
+    height: 100px;
+    float: left;
+}
+
+.complete-sign-up-process{
+    width: 33.3%;
+    height: 100px;
+    float: left;
+    margin-top: -31px;
+    margin-left: -100px;
+}
+.sign-up-icon{
+    background-color: yellow;
+    width: 33.3%;
+    height: 100px;
+    float: right;
+    margin-top: -31px;
+}
+
+.circle1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #8BC978;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+.icon1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 2.4%;
+    margin-left: 2.9%;
+}
+.circle2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 6.5%;
+    border: 2px solid #8BC978;
+}
+.icon2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 28%;
+    margin-left: 30%;
+}
+.text5{
+    font-size: 9.7px;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+.text6{
+    font-size: 9.7px;
+    margin-left: 150px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.circle3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 6.5%;
+    border: 2px solid #8BC978;
+}
+.icon3{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 28%;
+    margin-left: 33%;
+}
+.text7{
+    font-size: 9.7px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
